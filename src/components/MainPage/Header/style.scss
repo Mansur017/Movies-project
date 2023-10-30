@@ -1,0 +1,46 @@
+header{
+    padding: 40px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    p{
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover{
+            color: rgba(250, 71, 118, 1);
+        }
+        a{
+            color: #FFF;
+            text-decoration: none;
+            transition: 0.3s;
+            &:hover{
+                color: rgba(250, 71, 118, 1);
+            }
+        }
+       
+    }
+    img{
+        cursor: pointer;
+    }
+    .header-left{
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+    }
+    .header-right{
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

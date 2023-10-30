@@ -1,0 +1,77 @@
+.input-block{
+    display: flex;
+    padding: 50px 180px 50px;
+    gap: 24px;
+    input{
+        display: flex;
+        width: 876px;
+        height: 40px;
+        align-items: flex-start;
+        border-radius: 12px;
+        border: 1px solid var(--grey-700, #323B54);
+        background: var(--black-10, rgba(0, 0, 0, 0.10));
+        color: var(--grey-400, #767E94);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        display: flex;
+        padding: 12px 16px;
+        padding-left: 55px;
+        align-items: center;
+        gap: 16px;
+        background-image: url("../../../assets/search-normal.svg");
+        background-repeat: no-repeat;
+        background-position: 2% 50%;
+        &:focus{
+        outline: 1px solid #7B6EF6;
+        }
+    }
+    button{
+        display: flex;
+        width: 301px;
+        align-items: flex-start;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 12px;
+        border: 2px solid var(--primary-400, #7B6EF6);
+        background: var(--primary-400, #7B6EF6);
+        color: var(--white-100, #FFF);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        cursor: pointer;
+        outline: none;
+        transition: 0.3s;
+        &:hover{
+            background-color: rgb(70, 70, 255);
+            ;
+        }
+    }
+}
+.comment-block{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    padding: 40px;
+    margin-top: 48px;
+    margin-left: 180px;
+    border-radius: 12px;
+    opacity: 0.8;
+    background: var(--black-20, rgba(0, 0, 0, 0.20));
+    align-items: center;
+    p{
+        color: var(--primary-400, #7B6EF6);
+        font-family: "Poppins";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; 
+        letter-spacing: 0.32px;
+    }
+}

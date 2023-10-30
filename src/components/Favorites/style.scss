@@ -1,0 +1,9 @@
+.favorites{
+    margin-top: -200px;
+    display: flex;
+    .movies-list{
+        .btn-delete{
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,89 @@
+main{
+    padding-left: 88px;
+    h1{
+        color: #FFF;
+        font-family: "Oswald";
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: -5px;
+    }
+    h2{
+        color: #FFF;
+        font-family: "Oswald";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: -70px;
+    }
+    p{
+        color: #FFF;
+        font-family: "Outfit";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-top: -30px;
+    }
+    .stars{
+        display: flex;
+        margin-top: 30px;
+        gap: 5px;
+        img{
+            width: 27px;
+            height: 27px;
+        }
+    }
+    .buttons-block{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-top: 40px;
+        .btn-watch{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 193px;
+            height: 56px;
+            border-radius: 41px;
+            background: #FA4776;
+            color: #FFF;
+            font-family: "Outfit";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.72px;
+            cursor: pointer;
+            border: none;
+            transition: 0.3s;
+            &:hover{
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #FFF;
+                transform: scale(1.02);
+            }
+        }
+        .btn-trailer{
+            width: 120px;
+            height: 48px;
+            color: #FFF;
+            font-family: "Outfit";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.72px;
+            border-radius: 41px;
+            border: 1px solid #FFF;
+            background-color: rgba(255, 255, 255, 0);
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}

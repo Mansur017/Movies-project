@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 175px 60px;
+    ul{
+        list-style-type: none;
+        display: flex;
+        color: var(--grey-200, #A8AEBF);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; 
+        letter-spacing: 0.32px;
+        gap: 48px;
+        li{
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                color: rgb(70, 70, 255);
+            }
+        }
+        a{
+            color: var(--grey-200, #A8AEBF);
+            text-decoration: none;
+            &:hover{
+                color: rgb(70, 70, 255);
+            }
+        }
+      
+    }
+}
