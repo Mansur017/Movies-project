@@ -20,7 +20,7 @@ function App() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '51d6925eb3mshfd810f47be63fa3p15c0b9jsncb559ead7882',
+        'X-RapidAPI-Key': '7ccfe76839msh9526718512907c0p11e167jsn037c515b692f',
         'X-RapidAPI-Host': 'imdb-top-100-movies1.p.rapidapi.com'
       }
     };
@@ -83,21 +83,3 @@ export default App;
 
 
 
-
-
-
-
-const url = 'https://imdb-top-100-movies1.p.rapidapi.com/';
-const options = {
-	method: 'GET',
-	headers: {
-	}
-};
-
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}
