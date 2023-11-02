@@ -25,7 +25,8 @@ const Movies = ({ movies, favorites, setFavorites, setSelectedMovie }) => {
     "The Lord of the Rings: The Return of the King",
     "Nuovo Cinema Paradiso",
     "La vita è bella",
-    "Star Wars: Episode VI - Return of the Jedi"
+    "Star Wars: Episode VI - Return of the Jedi",
+    "Star Wars"
   ];
 
   const filteredMovies = movies.filter((item) => !excludedMovies.includes(item.title));

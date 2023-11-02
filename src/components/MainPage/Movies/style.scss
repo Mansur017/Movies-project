@@ -1,6 +1,8 @@
 .movies-block{
-    margin-top: 200px;
     margin: 200px 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     h2{
         color: var(--grey-50, #EBEEF5);
         font-family: "Poppins";
@@ -75,6 +77,7 @@
                 overflow: hidden;
                 text-overflow: ellipsis;
                 transition: 0.3s;
+                width: 282px;
                 &:active{
                     color: #FA4776;
                 }
@@ -113,8 +116,7 @@
         }
         }
         .btn-down{
-            margin-left: 620px;
-            margin-top: 60px;
+            margin: 60px auto;
             width: 30px;
             transform: rotate(90deg);
             cursor: pointer;

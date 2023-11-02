@@ -14,7 +14,7 @@
         margin-bottom: 33px;
     }
     .popular-movies-list{
-        width: 1335px;
+        width: 92%;
         height: 286px;
         border-radius: 24px;
         border: 1px solid rgba(255, 255, 255, 0.14);
@@ -22,6 +22,7 @@
         backdrop-filter: blur(10px);
         display: flex;
         align-items: center;
+        justify-content: center;
         padding: 15px 19px;
         gap: 23px;
         div{
